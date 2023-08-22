@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import AlanLib
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let counting = Counting()
+        counting.counter()
+        
     }
 
     override func didReceiveMemoryWarning() {
